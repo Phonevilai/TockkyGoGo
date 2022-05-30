@@ -22,3 +22,8 @@ func A() string {
 	n := os.Getenv("number")
 	return n
 }
+
+func B() string {
+	n := os.Getenv("in")
+	return n
+}
