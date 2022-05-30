@@ -17,3 +17,8 @@ func P() string {
 	n := os.Getenv("name")
 	return n
 }
+
+func A() string {
+	n := os.Getenv("number")
+	return n
+}
